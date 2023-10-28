@@ -6,8 +6,7 @@ function Login({ auth, firebase }) {
 
   return (
     <div className="login-container">
-      <h1>Please Sign in</h1>
-      <button className="login-button" onClick={signInWithGoogle}>
+      <button className="login-btn" onClick={signInWithGoogle}>
         Sign In
       </button>
     </div>
